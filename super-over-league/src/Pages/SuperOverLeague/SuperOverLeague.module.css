@@ -1,0 +1,32 @@
+.mainContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #0f172a; */
+}
+
+.superOverLeagueContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  /* height: 100%; */
+  padding: 100px;
+  box-sizing: border-box;
+}
+.superOverLeagueContainer h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+}
+.iplTeamWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
